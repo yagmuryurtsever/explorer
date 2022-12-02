@@ -1,0 +1,24 @@
+.address-info__card {
+    word-wrap: break-word;
+    padding: 30px;
+    margin-bottom: 8px;
+    background-color: var(--main-bg);
+    box-shadow: var(--box-shadow);
+    border: 2px solid;
+    border-radius: var(--border-radius);
+    border-color: var(--second-color);
+    margin-left: 8px;
+}
+
+.address-info__footer {
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .address-info__card {
+        font-size: 16px;
+    }
+    .address-info__footer {
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,20 @@
+.block-info > p {
+    padding: 15px 10px;
+    font-weight: 800;
+    font-size: 20px;
+    a:hover{
+        color: var(--second-color);
+    }
+    a {
+        color: var(--main-color);
+    }
+}
+
+.txs-info {
+    a:hover{
+        color: #fff;
+    }
+    a{
+        color: var(--second-color);
+    }
+}
